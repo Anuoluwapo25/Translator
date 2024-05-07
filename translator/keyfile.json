@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sturdy-tenure-420911",
+  "private_key_id": "8b7878876b77a0bc525f27861886880a598be175",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGGxpFKVj40RPH\nufRSC/VFnqA0xcTGAorGAzp+kMXrO86CcQ5fzF3k21KfFSSaJ9ae3aH8k+lRLkE/\nfyNYmF/zQUeNimgPS8/86UocLt+Di/ab32e4HBIWjhp86z2D5WmcCT1I9d9ozLr2\n/aPFtAadRXu0qv3TfjJCeoY6U5b3UFU3ZUyKJMOwEQn3fIefX8IhfJ30h5RvseHs\nZvmvWlv+cG90Tgl47VvLYDq++fYP3IOj+NAtpQ+vz3CujuBZtqOJNrikE2fMeqs8\ny5JyiVEtiDdNMYv8k0mb0ppIhqcprcEX4vmMIRcYSgthgKKcml2mnDRA/T2RDpMF\ni+Mz24+NAgMBAAECggEAB0odA9l7JCCxXSKLCm/VNRwaogZ68JxMVe/teZXDKp43\nQZZ+ZGkFNXQajK7++0sm+w6FtOEOb0XH8dmwR8THlxBaXStwG8v62cAN0Y6p+9Gt\nH9wvGVezFLBi6iDP0SgiZDL01dfyQg1yfb8khRRUP/o8DJBUKbGVkNuoT8Iepnf2\nLpuozsAWNyLWV65plpGJ8nP0Sk/+3CvSR6mT24HROJ9+eCHn33yx3T0oq9Kx3tlC\neC1+UglpksBVbe4BkzXLlkGC6AGu3uvxfz0kmhDTWJQdWPgrN3nCmlmFWB5Wa8/i\nuai7V8ud3TZXcGvAD3YEyF+/XoKOmCoQ/IIiZOlPkQKBgQDnHcktkqQEa58OUlsP\nwNW9yEL4z8VH4tCpYX/fnWGwM+BKa+C/HIhNeCPin2c9Z/d/0N8NRNBul4t8Es9R\nw+bJbklSakj4e9AMtMQ/eULfjBBDIB1qUSLPp7VPBiApFuULr2J9HjbY6DeAAZzt\nvseAsjvaNFabkO2od3G/yBeFlQKBgQDbb3SWCFcVcam33HcOWas+JwXeBBXGIvfI\n3biaPzqtVj5/1nCUrtG5dXge5/XnyQ4eDWKjlvVC3Lh/b2GNtoW4308nU0JacaX0\n+kr2s0WNB5jDtL8vdHO0s0q1gjwvLp4wOm8Tb6vAg88rzfSI13IglrBQ5HpalfQZ\n//GYquh0GQKBgFJxS5xYHO3+vgRL2HPsI9LJJyq+Yu9bt3dUclsANyK1vqKNjORf\ndze7TYG/vwImniEYDxkanQd2Q6mExDO0oBTmpH0jsNgCwppluUOzK+m2eu6W/Cc6\nviI4/vIrizldE2Nxsr5TEtmZLIMbEDG2xk/gRH14AhUIQ96+jPMOm2VpAoGBAJMi\n4OHZJctTM6H9SjdtGM3MDLsZsh/xQoSFZ0rGKuofcjj16PdJYYchpTHUB6crwTOV\ndhaLGlmC9pM8dAU55eBYnBKaWVub6NOjILDa9D/kYCKaB7giNZNsxSN/+CsK7zcX\nd3No5ZloyHlu2BEJpZUEdaVIDmK/ObZVUAI2VzfBAoGBALtJ6y/DLwfYYB3kAAlw\nBmOaryaecergShCRFxGlvMDkiGbtoOKrOBEEJbp0bWdhfp/XTiCdZPt1iTENwA1u\nvI0KubyyjFRs4s5HmaWQcfOnE/ZakfTQiJ0qISxYc8pBGdDy6Bi9tROsFl/hAI9v\nQsiLs6wpP0wBeOlqsUstkPsW\n-----END PRIVATE KEY-----\n",
+  "client_email": "translator-project@sturdy-tenure-420911.iam.gserviceaccount.com",
+  "client_id": "104206953521822656381",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translator-project%40sturdy-tenure-420911.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
