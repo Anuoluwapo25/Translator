@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translator</title>
+  <link rel="stylesheet" href="translate.css">
+</head>
+
+<body>
+  <h1>Language Translator</h1>
+  
+  <div>
+    <label for="source-language">Source Language:</label>
+    <select id="source-language">
+      <option value="en">English</option>
+      <option value="yo">Yoruba</option>
+      <option value="ig">Igbo</option>
+      <option value="Ha">Hausa</option>
+    </select>
+  </div>
+  <div>
+    <textarea id="input-text" rows="4" cols="50" placeholder="Enter text to translate..."></textarea>
+  </div>
+
+  <div>
+    <label for="target-language">Target Language:</label>
+    <select id="target-language">
+      <option value="en">English</option>
+      <option value="yo">Yoruba</option>
+      <option value="ig">Igbo</option>
+      <option value="Ha">Hausa</option>
+    </select>
+  </div>
+
+  <div>
+    <textarea id="output-text" rows="4" cols="50" readonly  placeholder="Translated text will appear here..."></textarea>
+  </div>
+
+  <button onclick="translate()">Translate</button>
+</body>
+
+</html>
+
