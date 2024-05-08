@@ -1,16 +1,15 @@
-from flask import Flask, render_template, request, jsonify
-from googletrans import Translator
+from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 def landing():
-    return render_template('index.html')
+    return "Welcome to the landing page"
 
 
 @app.route('/signup')
 def signup():
-    return render_template('signup.html')
+    return "<h1>Signup Page</h1><p>This is the signup page. Please fill out the form to sign up.</p>"
 
 if __name__ == '__main__':
     app.run(debug=True)
