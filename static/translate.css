@@ -20,7 +20,7 @@ h1 {
 }
 
 div {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 label {
@@ -54,4 +54,3 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-          
