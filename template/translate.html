@@ -1,17 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Language Translator</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Translator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1>Language Translator</h1>
-
+  
   <div>
     <label for="source-language">Source Language:</label>
     <select id="source-language">
@@ -36,14 +35,15 @@
 
   <div>
     <label for="input-text">Input Text:</label>
-    <textarea id="input-text" rows="4" cols="50" placeholder="Enter text to translate..."></textarea>
+    <textarea id="input-text" rows="4" cols="50"></textarea>
   </div>
 
   <div>
     <label for="output-text">Translated Text:</label>
-    <textarea id="output-text" rows="4" cols="50" readonly placeholder="Translated text will appear here..."></textarea>
+    <textarea id="output-text" rows="4" cols="50" readonly></textarea>
   </div>
 
   <button onclick="translate()">Translate</button>
+</body>
 
-
+</html>
