@@ -14,14 +14,13 @@ def signup():
 @app.route('/translate', methods=['POST'])
 def translate():
     if request.method == 'POST':
-        data = request.get_json()
-        text = data.get('input-text')
-        target_language = data.get('target_language')
+        text = request.form.get('input-text')
+        target_language = request.form.get('target_language')
 
         if not text or not target_language:
             return jsonify({'error': 'Invalid request'})
 
-        #translation = translate_text(text, target_language)
+        translation = translate_text(text, target_language)
 
         return render_template('translate.html', text=text, translation=translation)
 
