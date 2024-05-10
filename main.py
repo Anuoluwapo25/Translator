@@ -11,11 +11,7 @@ def index():
 def signup():
     return render_template('signup.html')
 
-@app.route('/translate')
-def trans():
-    return render_template('translate.html')
-
-@app.route('/translated', methods=['POST'])
+@app.route('/translate', methods=['POST'])
 def translate():
     if request.method == 'POST':
         data = request.get_json()
