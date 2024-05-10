@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from googletrans import Translator
+from app import translate_text
 
 app = Flask(__name__, template_folder='template', static_folder='static')
 
@@ -13,16 +14,15 @@ def signup():
 
 @app.route('/translate', methods=['POST'])
 def translate():
-    if request.method == 'POST':
-        text = request.form.get('input-text')
-        target_language = request.form.get('target_language')
+    text = request.form['input-text']
+    target_language = request.form['target_language']
 
-        if not text or not target_language:
-            return jsonify({'error': 'Invalid request'})
+    if not text or not target_language:
+	return jsonify({'error': 'Invalid request'})
 
-        translation = translate_text(text, target_language)
+    translation = translate_text(text, target_language)
 
-        return render_template('translate.html', text=text, translation=translation)
+    return render_template('translate.html', text=text, translation=translation)
 
 if __name__ == '__main__':
     app.run(debug=True)
