@@ -22,7 +22,7 @@
  
  
     <label for="input-text">Input Text:</label>
-    <textarea id="input-text" rows="4" cols="50" placeholder="my name is ...."></textarea>
+    <textarea id="text" rows="4" cols="50" placeholder="my name is ...."> {{text}}</textarea>
   
 
     <label for="target-language">Target Language:</label>
@@ -35,8 +35,8 @@
     </select>
   
 
-    <label for="output-text">Translated Text:</label>
-    <textarea id="output-text" rows="4" cols="50" placeholder="translated" ...."readonly></textarea>
+    <label for="translation">Translated Text:</label>
+    <textarea id="output-text" rows="4" cols="50" placeholder="translated" ...."readonly>{{translation}}</textarea>
 
   <button onclick="translate()">Translate</button>
   </div>
