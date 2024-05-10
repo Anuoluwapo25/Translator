@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
@@ -34,14 +37,15 @@
         </div>
         <p>Sign up now to unlock additional features or start translating right away!</p>
         <div class="signup">
-            <input type="submit" value="Sign up" />
+		<a href="/signup"> <input type="botton" class="signup-btn" value="Sign up" />
+		</a>
         </div>
     </section>
     <footer>
         <div>
             <nav>
-                <a href="https://twitter.com">Twitter</a> | 
-                <a href="https://linkedin.com">LinkedIn</a> | 
+                <a href="https://twitter.com">Twitter</a> |
+                <a href="https://linkedin.com">LinkedIn</a> |
                 <a href="https://github.com">GitHub</a>
             </nav>
         </div>
@@ -50,5 +54,5 @@
         </div>
     </footer>
 </body>
-</html>
 
+</html>
