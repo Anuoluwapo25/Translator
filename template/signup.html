@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+</head>
+
+<body>
+    <h1>Language shouldn't be a barrier</h1>
+    <p><em>Connect with a friend today!</em> <a href="/translate">Click on this</a></p>
+    <hr>
+    <pre>
+        Quick sign up!
+
+    <mark>Sign up with Google</mark>
+
+     or use your email address
+  </pre>
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password">
+            <input type="submit" value="Sign up">
+        </form>
+        <p>Use at least one letter, one numeral, and seven letters</p>
+    </div>
+</body>
+
+</html>
+
