@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <h1>Language shouldn't be a barrier</h1>
-    <p><em>Connect with a friend today!</em> <a href="/translate">Click on this</a></p>
+    <h1>Language shouldn't be a barrier <br>
+    <h2><em>Connect with a friend today!</em> <a href="/translate">Click on this</a></h2>
+    <div class='signup'>
     <hr>
     <pre>
         Quick sign up!
@@ -21,15 +22,29 @@
   </pre>
     <div>
         <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
             <label for="email">Email:</label>
             <input type="text" id="email" name="email">
             <label for="password">Password:</label>
             <input type="text" id="password" name="password">
+            Use at least one letter, one numeral, and seven letters<br>
+            <br>
+            <label for="country">Country:</label>
+              <select id="target_language" name="target_language" required>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="yo">Yoruba</option>
+                <option value="ig">Igbo</option>
+                <option value="ha">Hausa</option>
+            </select>
+            <input type="text" id="country" name="country">
             <input type="submit" value="Sign up">
         </form>
-        <p>Use at least one letter, one numeral, and seven letters</p>
+    </div>
+     <p class="login"><a href="/login">Have an account already?</a></p>
     </div>
 </body>
 
