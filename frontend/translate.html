@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator</title>
+    <link rel="stylesheet" href="static/translate.css">
 </head>
 <body>
     <h1>Language Translator</h1>
-  
-    <form action="/translate" method="post">
-        <div>
-            <label for="source-language">Source Language:</label>
-            <select id="source-language">
-                <option value="en">English</option>
-                <option value="yo">Yoruba</option>
-                <option value="ig">Igbo</option>
-                <option value="ha">Hausa</option>
-            </select>
-        </div>
-
-        <div>
+   <div>
+    <form class="form" action="/translator" method="post">
+       <div> 
             <label for="input-text">Input Text:</label>
             <textarea id="input-text" name="input-text" rows="4" cols="50" placeholder="Enter text">{{ input_text }}</textarea>
         </div>
 
         <div>
-            <label for="target-language">Target Language:</label>
-            <select id="target-language" name="target-language">
+            <label for="target_language">Target Language:</label>
+            <select id="target_language" name="target_language" required>
                 <option value="en">English</option>
                 <option value="fr">French</option>
                 <option value="yo">Yoruba</option>
@@ -42,6 +33,7 @@
 
         <button type="submit">Translate</button>
     </form>
+    </div>
 </body>
 </html>
 

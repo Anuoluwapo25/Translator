@@ -2,15 +2,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #007bff;
+    /*background-color: #007bff;*/
+    background-image: url('../images/cover-image.jpg');
     color: #fff;
+}
+section {
+    /*background-color: #007bff;*/
+    background: linear-gradient(to right, lightblue 40%, blue 100%);
 }
 
 header {
     color: #fff;
-    background-color: #f2f2f2;
+    /*background-color: #f2f2f2;*/
     padding: 100px 0;
-    background-image: url('/..images/cover-image.jpg');
+    background-image: url('../images/cover-image.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -18,6 +23,7 @@ header {
 
 header .cover-image h1 {
     font-size: 36px;
+    background-image: url('../images/cover-image.jpg');
 }
 
 .container {
