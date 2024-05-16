@@ -18,7 +18,7 @@ def translate():
     target_language = request.form['target_language']
 
     if not text or not target_language:
-	return jsonify({'error': 'Invalid request'})
+        return jsonify({'error': 'Invalid request'})
 
     translation = translate_text(text, target_language)
 
