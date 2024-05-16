@@ -2,3 +2,4 @@ google-cloud-cli-*.tar.gz
 git-lfs-3.5.1
 keyfile.json
 file.json
+__pycache__ 
