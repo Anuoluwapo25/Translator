@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from main import translate_text
 
 
-app = Flask(__name__, template_folder='template', static_folder='static')
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
 
