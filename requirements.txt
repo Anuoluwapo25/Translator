@@ -1,10 +1,10 @@
-attrs==23.2.0
-beautifulsoup4==4.8.2
+# attrs==23.2.0
+# beautifulsoup4==4.8.2
 blinker==1.8.2
-cachetools==5.3.3
-certifi==2019.11.28
+# cachetools==5.3.3
+# certifi==2019.11.28
 chardet==3.0.4
-click==8.1.7
+# click==8.1.7
 dbus-python==1.2.16
 flasgger==0.9.7.1
 flask==3.0.3
