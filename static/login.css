@@ -74,15 +74,24 @@ div, pre, p {
   padding: 20px;
   /*border: 2px solid;*/
   background-color: #fff;
+  border-radius: 10px;background: rgba(255,255,255,0.2);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
   border-radius: 10px;
-  background: transparent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  /*background: transparent;*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
   /*backdrop-filter: blur(100px);*/
 }
 .signup {
-   background-color: #8E9890
-   background: transparent;
+   /* background-color: #8E9890;*/
+   background: rgba(255,255,255,0.2);
+   box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+   backdrop-filter: blur(5.8px);
+   -webkit-backdrop-filter: blur(5.8px);
+   border-radius: 10px;
+
    backdrop-filter: blur(100px);
 }
-Macintoshs-MacBook-Air:static macintoshhd$ 
 
